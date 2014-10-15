@@ -14,7 +14,7 @@ chrome.extension.sendMessage({}, function (response) {
 
 var fartBook = function(window, document, undefined) {
     var SCROLL_CLASS = 'scrollable',
-        LIKE_CLASS = 'uiLinkButtonInput',//'UFILikeLink',
+        LIKE_CLASS = 'UFILikeLink',
         DEBOUNCE_TIME_MS = 100;
         
     var body = document.getElementsByTagName('body')[0];
